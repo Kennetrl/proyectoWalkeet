@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Walkeet</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./socialMedia.css">
+    <link rel="stylesheet" href="./animations.css">
     <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./socialMedia.css">
 </head>
 <body>
     <header>
@@ -151,19 +152,23 @@
         <h2>Contácto</h2>
         <div>
             <section class="sectionFooter1">
+                <div class="line-wobble"></div>
                 <p>Utiliza las siguientes vías de contacto, rellena el formulario.</p>
                 <p>Vía E-mail</p>
                 <p>walkeet_wk@hotmail.com</p>
                 <p>En nuestras redes sociales</p>
                 <a href="www.walkeet.com/walkeet">www.walkeet.com/walkeet</a>
+                <br><br><br>
+                <div class="line-wobble"></div>
             </section>
             <section class="sectionFooter2">
                 <form action="" class="formulario">
                 <h3>Formulario</h3>
-                <input type="text" placeholder="Escribe tu nombre">
-                <input type="text" placeholder="Escribe tu e-mail">
-                <input type="text" placeholder="Escribe tu celular (Opcional)">
-                <input type="text" placeholder="Escribe tu mensaje">
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Escribe tu nombre">
+                <input class="controls" type="text" name="correo" id="correo" placeholder="Escribe tu e-mail">
+                <input class="controls" type="text" name="celular" id="celular" placeholder="Escribe tu celular (Opcional)">
+                <textarea class="controls" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <input class="botonEnviar" type="submit" value="Enviar Mensaje">
                 </form>
             </section>
         </div>
