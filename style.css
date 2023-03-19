@@ -49,6 +49,7 @@ header{
     /*Solo para saber que existe xd*/
     margin: 0;
     font-size: 1.25rem;
+    font-weight: 100;
 }
 .hs1Right a{
     color: var(--colorBlack);
