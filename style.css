@@ -26,6 +26,10 @@ header{
     width: 100%;
     height: 100vh;
 }
+.sesionHeader{
+    background-image: radial-gradient(circle at 50% -20.71%, #ff7751 0, #5743ef 25%, #f94646 50%, #ec2041 75%, #1226db 100%);    
+
+}
 .headerSection1{
     display: flex;
     align-items: center;
