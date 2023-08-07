@@ -35,7 +35,6 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    font-family: fantasy;
 }
 .logo{
     height: 7rem;
@@ -43,6 +42,7 @@ header{
 }
 .threeLines{
     display: none;
+    height: 6rem;
 }
 .titulo{
     margin: 2.7rem;
@@ -53,7 +53,7 @@ header{
     /*Solo para saber que existe xd*/
     margin: 0;
     font-size: 1.25rem;
-    font-weight: 100;
+    font-weight: bold;
 }
 .hs1Right a{
     color: var(--colorBlack);

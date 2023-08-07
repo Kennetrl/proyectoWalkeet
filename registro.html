@@ -19,7 +19,7 @@
                 <a href="./walkeet.html"><img src="./images/logo.png" alt="Logo" class="logo"></a>
             </div>
             <div class="hs2Right">
-                <img src="./icons/threeLines.png" alt="3Lines" class="threeLines">
+                <a href="./walkeet.html"><img src="./icons/account.png" alt="3Lines" class="threeLines"></a>
             </div>
             
         </section>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="input-group">
                     <label for="username">Correo Electronico</label>
-                    <input type="email" name="username" id="username" placeholder="" required>
+                    <input type="email" name="email" id="email" placeholder="" required>
                 </div>
                 <div class="input-group">
                     <label for="password">Contraseña</label>
@@ -48,11 +48,11 @@
                         <a rel="noopener noreferrer" href="#">Necesita ayuda?</a>
                     </div>
                 </div>
-                <button class="sign">Registrarse</button>
+                <button class="sign"  id="registerButton">Registrarse</button>
             </form>
         
                 <!--Para dar el error-->
-                <span></span>
+                <span id="spanRegistro"></span>
         
                 <div class="social-message">
                     <div class="line"></div>
@@ -103,5 +103,6 @@
                 <img src="./logos/21.svg" alt="other" class="socialMedia" id="other">
                 <img src="./logos/22.svg" alt="pageWeb" class="socialMedia" id="pageWeb">
     </header>
+    <script src="./script.js"></script>
 </body>
 </html>
